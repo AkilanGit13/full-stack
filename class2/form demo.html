@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form demo</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="sname">Name</label>
+            <input type="text" id="sname" name="name">
+        </div>
+        <div>
+            <label for="semail">Email</label>
+            <input type="email" name="email" id="semail">
+        </div>
+        <div>
+            <label for="scontact">Phone Number</label>
+            <input type="number" name="contact" id="scontact">
+        </div>
+        <div>
+            <label for="sdegree">Degree</label>
+            <select name="degree" id="sdegree">
+                <option value="id1">---choose one---</option>
+                <option value="id2">BE</option>
+                <option value="id3">BTECH</option>
+                <option value="id4">MCA</option>
+            </select>
+        </div>
+        <div>
+            <label for="sDOB">Date Of Birth</label>
+            <input type="date" name="DOB" id="sDOB">
+        </div>
+        <div>
+            <span>Gender</span>
+            <div>
+                <input type="radio" name="gender" id="male" value="M">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="F">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="others" value="O">
+                <label for="others">Others</label>
+            </div>
+        </div>
+        <div>
+            <span>Course slot</span>
+            <div>
+                <input type="checkbox" name="slot" id="morning" value="M">
+                <label for="morning">Morning</label>
+                <input type="checkbox" name="slot" id="evening" value="E">
+                <label for="evening">Evening</label>
+            </div>
+        </div>
+        <div>
+            <span>Profile Picture</span>
+            <input type="file" accept=".png,.jpg,.jpeg">
+        </div>
+        <div>
+            <span>Introduction</span>
+            <textarea name="intro" id="sintro"></textarea>
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
